@@ -141,16 +141,13 @@ Roshan Patel - Python Full Stack Developer | Professional GitHub Profile README
 ---
 
 <p align="center">
-  <!-- The snake animation only works if you have set up the GitHub Actions workflow to generate this SVG file in your repo! -->
-  <img src="https://github.com/roshan7600/roshan7600/blob/output/github-contribution-grid-snake.svg" alt="GitHub Snake Animation" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/roshan7600/roshan7600/blob/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/roshan7600/roshan7600/blob/output/github-snake.svg">
+    <img alt="GitHub Snake Animation" src="https://github.com/roshan7600/roshan7600/blob/output/github-snake.svg">
+  </picture>
 </p>
 
-<!--
-How to FIX GitHub Snake Animation:
-- You must have a GitHub Actions workflow that generates the SVG file at /output/github-contribution-grid-snake.svg in your repo.
-- See: https://github.com/Platane/snk (official tool for the animation)
-- If you have not set this up, follow the instructions in the snk repo. Otherwise this image will be broken.
--->
 
 <!-- Gradient Footer Banner -->
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:2a5298,100:1e3c72&height=150&section=footer)
