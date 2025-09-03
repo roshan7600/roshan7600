@@ -2,22 +2,23 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # Runs every 12 hours
-  workflow_dispatch:       # Allow manual trigger
+    - cron: "0 */12 * * *" # every 12 hours
+  workflow_dispatch:
   push:
     branches:
       - main
+
+permissions:
+  contents: write   # ✅ allow pushing to output branch
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout
       - name: Checkout
         uses: actions/checkout@v3
 
-      # Step 2: Generate snake files
       - name: Generate Snake
         uses: Platane/snk@v3
         with:
@@ -27,7 +28,6 @@ jobs:
             dist/github-snake-dark.svg?palette=github-dark
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
-      # Step 3: Deploy to output branch
       - name: Deploy to Output Branch
         uses: peaceiris/actions-gh-pages@v3
         with:
