@@ -118,7 +118,8 @@ Roshan Patel - Python Full Stack Developer | Professional GitHub Profile README
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=roshan7600&show_icons=true&theme=tokyonight" alt="Roshan's GitHub Stats" height="160"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=roshan7600&theme=tokyonight" height="160"/>
+<img src="https://streak-stats.demolab.com?user=roshan7600&theme=tokyonight" height="160"/>
+
 </p>
 
 ---
@@ -147,6 +148,7 @@ Roshan Patel - Python Full Stack Developer | Professional GitHub Profile README
     <img alt="GitHub Snake Animation" src="https://github.com/roshan7600/roshan7600/blob/output/github-snake.svg">
   </picture>
 </p>
+
 
 
 <!-- Gradient Footer Banner -->
