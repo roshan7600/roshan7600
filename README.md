@@ -84,9 +84,10 @@ Roshan Patel - Python Fullstack Developer | Professional GitHub Profile README
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=roshan7600&show_icons=true&theme=tokyonight" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=roshan7600&layout=compact&theme=tokyonight" height="160"/>
+  <img src="https://streak-stats.demolab.com/?user=roshan7600&theme=tokyonight" height="160" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=roshan7600&theme=tokyonight" height="160" />
 </p>
+
 
 ---
 
